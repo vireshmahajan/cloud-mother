@@ -1,0 +1,31 @@
+{
+  "keyFilePath": "./keys/testproject-276018-911b26ca0857.json",
+  "projectId": "testproject-276018",
+  "instanceLabel": "api-bucket-dev",
+  "deploymentRegion": "us-east1",
+  "deploymentZone": "us-east1-b",
+  "os": "debian",
+  "machineType": "f1-micro",
+  "externalIP": true,
+  "networkInterfaces": [
+    {
+     "network": "global/networks/default"
+    }
+  ],
+  "tags": ["my-http-server"],
+  "labels": {},
+  "metadata": {
+    "items": []
+  },
+  "startupScriptPath": "./server/scripts/startup-script.sh",
+  "healthCheckURL": "/healthcheck",
+  "pointDomainToIPRequest": {
+    "url": "https://domains.google.com/nic/update?hostname=dev.easyapis.org&myip=${ip}",
+    "method": "GET",
+    "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "User-Agent": "Chrome/41.0",
+        "Authorization": "Basic bDA2eVF6YWR3RnJheWFzODpVNHpwYlRWUHZRTjdUT3ZB"
+    }
+  }
+}

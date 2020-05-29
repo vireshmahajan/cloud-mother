@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+*
+!.gitignore
+!key-store.ts
+!key-store.js
+!key-store.js.map

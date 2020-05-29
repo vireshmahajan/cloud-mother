@@ -190,14 +190,3 @@ dist
 .pnp.*
 
 /.idea/
-/keys/
-/server/deploy-configurations/dev/apibucket-deploy.json
-/server/deploy-configurations/prd/apibucket-deploy.json
-/server/scripts/deploy-apibucket.js
-/server/scripts/deploy-apibucket.js.map
-/server/scripts/deploy-apibucket.ts
-/server/scripts/startup-script.js
-/server/scripts/startup-script.js.map
-/server/scripts/startup-script.sh
-/server/scripts/startup-script.ts
-/server/scripts/startup-script_old.sh
